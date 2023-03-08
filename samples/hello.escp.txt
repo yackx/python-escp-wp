@@ -1,0 +1,4 @@
+[pragma:escp-wp][soft-wrap:on]
+[box:on:thickness:1]Hello there[box:off]
+
+Very short with[italic:on]italic text[italic:off]and[bold:on]even bold[bold:off].

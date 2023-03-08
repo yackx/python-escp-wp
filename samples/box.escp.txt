@@ -1,0 +1,13 @@
+[pragma:escp-wp][soft-wrap:on][cpi:10][box:on:thickness:1]cpi:10. margin=default[box:off]
+
+
+[init][cpi:10][margin:left:5][box:on:thickness:1]cpi:10. margin:left:5[box:off]
+
+
+[init][cpi:10][margin:left:5][margin:right:75][box:on:thickness:1]cpi:10 margin:left:5 margin:right:75[box:off]
+
+
+[init][cpi:12][margin:left:7][margin:right:80][box:on:thickness:1]cpi:15. margin:left:7 margin:right:80[box:off]
+
+
+[init][cpi:15][margin:left:5][margin:right:75][box:on:thickness:1]cpi:10 margin:left:5 margin:right:75[box:off]
