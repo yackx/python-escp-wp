@@ -7,6 +7,7 @@ import escp
 
 from .node import GenericNode
 from .renderer_abc import Renderer
+from .magic_encoding import plain_char_substitutions, char_set_substitutions
 
 
 def render_escp(content: str, *, pins: int, soft_wrap=True) -> bytes:
@@ -47,7 +48,11 @@ class EscpToBinRenderer(Renderer):
         self.current_line_position_inch += self.text_width_inches(text)
 
     def magic_text(self, text: str):
-        self.escp_commands.magic_text(text)
+        self.escp_commands.magic_text(
+            text,
+            character_set_substitution=char_set_substitutions,
+            plain_text_substitution=plain_char_substitutions
+        )
         self.current_line_position_inch += self.text_width_inches(text)
 
     def lexer(self, content: str) -> list[str]:
