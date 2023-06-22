@@ -1,4 +1,4 @@
-escp==0.0.5
+escp==0.0.6
 
 # Tests
 pytest
