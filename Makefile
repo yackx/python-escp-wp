@@ -10,3 +10,6 @@ BIN_FILES := $(patsubst %.txt, %.bin, $(TXT_FILES))
 	cd $(CURDIR) && source venv/bin/activate && python -m wp.scripts $< -o $@ --pins 9
 
 all_samples: $(BIN_FILES)
+
+lpr:
+	lpr -o raw samples/$(TARGET).escp.bin
