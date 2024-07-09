@@ -53,3 +53,7 @@ Very short with _italic text_ and **even bold**.
 
 > [!TIP]
 > Make sure your Epson ESP/P printer is the default printer before you run the `lpr` command.
+
+## License
+
+[GNU General Public License v3.0](LICENSE)
